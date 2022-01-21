@@ -17,6 +17,6 @@ input.addEventListener('input', e => {
     console.log('input ' + e.data);
 })
 
-submit.addEventListener('submit',e=>{
-    console.log(e);
+document.addEventListener('keypress',e=>{
+    console.log('keypress ' + e.key);
 })
